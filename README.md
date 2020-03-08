@@ -10,30 +10,30 @@
 <h2 id="mw-toc-heading">Contents</h2>
 <label class="toctogglelabel" for="toctogglecheckbox"></label></div>
 <ul>
-<li class="toclevel-1 tocsection-1"><a href="https://en.wikipedia.org/wiki/PHP#History"><span class="toctext">History</span></a>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="toctext">History</span></a>
 <ul>
-<li class="toclevel-2 tocsection-2"><a href="https://en.wikipedia.org/wiki/PHP#Early_history"><span class="toctext">Early history</span></a></li>
-<li class="toclevel-2 tocsection-3"><a href="https://en.wikipedia.org/wiki/PHP#PHP_3_and_4"><span class="toctext">PHP 3 and 4</span></a></li>
-<li class="toclevel-2 tocsection-4"><a href="https://en.wikipedia.org/wiki/PHP#PHP_5"><span class="toctext">PHP 5</span></a></li>
-<li class="toclevel-2 tocsection-5"><a href="https://en.wikipedia.org/wiki/PHP#PHP_6_and_Unicode"><span class="toctext">PHP 6 and Unicode</span></a></li>
-<li class="toclevel-2 tocsection-6"><a href="https://en.wikipedia.org/wiki/PHP#PHP_7"><span class="toctext">PHP 7</span></a></li>
-<li class="toclevel-2 tocsection-7"><a href="https://en.wikipedia.org/wiki/PHP#Release_history"><span class="toctext">Release history</span></a></li>
+<li class="toclevel-2 tocsection-2"><a href="#Early_history"><span class="toctext">Early history</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#PHP_3_and_4"><span class="toctext">PHP 3 and 4</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#PHP_5"><span class="toctext">PHP 5</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#PHP_6_and_Unicode"><span class="toctext">PHP 6 and Unicode</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#PHP_7"><span class="toctext">PHP 7</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Release_history"><span class="toctext">Release history</span></a></li>
 </ul>
 </li>
-<li class="toclevel-1 tocsection-8"><a href="https://en.wikipedia.org/wiki/PHP#Mascot"><span class="toctext">Mascot</span></a></li>
-<li class="toclevel-1 tocsection-9"><a href="https://en.wikipedia.org/wiki/PHP#Syntax"><span class="toctext">Syntax</span></a>
+<li class="toclevel-1 tocsection-8"><a href="#Mascot"><span class="toctext">Mascot</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Syntax"><span class="toctext">Syntax</span></a>
 <ul>
-<li class="toclevel-2 tocsection-10"><a href="https://en.wikipedia.org/wiki/PHP#Data_types"><span class="toctext">Data types</span></a></li>
-<li class="toclevel-2 tocsection-11"><a href="https://en.wikipedia.org/wiki/PHP#Functions"><span class="toctext">Functions</span></a></li>
-<li class="toclevel-2 tocsection-12"><a href="https://en.wikipedia.org/wiki/PHP#PHP_Objects"><span class="toctext">PHP Objects</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Data_types"><span class="toctext">Data types</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Functions"><span class="toctext">Functions</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#PHP_Objects"><span class="toctext">PHP Objects</span></a></li>
 </ul>
 </li>
-<li class="toclevel-1 tocsection-13"><a href="https://en.wikipedia.org/wiki/PHP#Implementations"><span class="toctext">Implementations</span></a></li>
-<li class="toclevel-1 tocsection-14"><a href="https://en.wikipedia.org/wiki/PHP#Licensing"><span class="toctext">Licensing</span></a></li>
-<li class="toclevel-1 tocsection-15"><a href="https://en.wikipedia.org/wiki/PHP#Development_and_community"><span class="toctext">Development and community</span></a></li>
-<li class="toclevel-1 tocsection-16"><a href="https://en.wikipedia.org/wiki/PHP#Installation_and_configuration"><span class="toctext">Installation and configuration</span></a></li>
-<li class="toclevel-1 tocsection-17"><a href="https://en.wikipedia.org/wiki/PHP#Use"><span class="toctext">Use</span></a></li>
-<li class="toclevel-1 tocsection-18"><a href="https://en.wikipedia.org/wiki/PHP#Security"><span class="toctext">Security</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Implementations"><span class="toctext">Implementations</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#Licensing"><span class="toctext">Licensing</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#Development_and_community"><span class="toctext">Development and community</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#Installation_and_configuration"><span class="toctext">Installation and configuration</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#Use"><span class="toctext">Use</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#Security"><span class="toctext">Security</span></a></li>
 </ul>
   
   
