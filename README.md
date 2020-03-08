@@ -129,4 +129,166 @@ This is an example of custom PHP code for the&nbsp;<a title="WordPress" href="ht
 <p>PHP 7 also included new language features. Most notably, it introduces return type declarations for functions&nbsp;which complement the existing parameter type declarations, and support for the&nbsp;<a title="Variable (computer science)" href="https://en.wikipedia.org/wiki/Variable_(computer_science)">scalar</a>&nbsp;types (integer, float, string, and boolean) in parameter and return type declarations.</p>
 
 
+<h3><span id="Release_history" class="mw-headline">Release history</span></h3>
+<table class="wikitable">
+<tbody>
+<tr>
+<th>Version</th>
+<th>Release date</th>
+<th>Supported until</th>
+<th>Notes</th>
+</tr>
+<tr>
+<td title="Old version, no longer maintained" data-sort-value="1.0">1.0</td>
+<td>8 June 1995</td>
+<td>&nbsp;</td>
+<td>Officially called "Personal Home Page Tools (PHP Tools)". This is the first use of the name "PHP".</td>
+</tr>
+<tr>
+<td title="Old version, no longer maintained" data-sort-value="2.0">2.0</td>
+<td>1 November 1997</td>
+<td>&nbsp;</td>
+<td>Officially called "PHP/FI 2.0". This is the first release that could actually be characterised as PHP, being a standalone language with many features that have endured to the present day.</td>
+</tr>
+<tr>
+<td title="Old version, no longer maintained" data-sort-value="3.0">3.0</td>
+<td>6 June 1998</td>
+<td>20 October 2000</td>
+<td>Development moves from one person to multiple developers. Zeev Suraski and Andi Gutmans rewrite the base for this version.</td>
+</tr>
+<tr>
+<td title="Old version, no longer maintained" data-sort-value="4.0">4.0</td>
+<td>22 May 2000</td>
+<td>23 June 2001</td>
+<td>Added more advanced two-stage parse/execute tag-parsing system called the Zend engine.</td>
+</tr>
+<tr>
+<td title="Old version, no longer maintained" data-sort-value="4.1">4.1</td>
+<td>10 December 2001</td>
+<td>12 March 2002</td>
+<td>Introduced "superglobals" (<code id="" class="mw-highlight mw-highlight-lang-php" dir="ltr"><span class="nv">$_GET</span></code>,&nbsp;<code id="" class="mw-highlight mw-highlight-lang-php" dir="ltr"><span class="nv">$_POST</span></code>,&nbsp;<code id="" class="mw-highlight mw-highlight-lang-php" dir="ltr"><span class="nv">$_SESSION</span></code>, etc.)</td>
+</tr>
+<tr>
+<td title="Old version, no longer maintained" data-sort-value="4.2">4.2</td>
+<td>22 April 2002</td>
+<td>6 September 2002</td>
+<td>Disabled&nbsp;<code>register_globals</code>&nbsp;by default. Data received over the network is not inserted directly into the&nbsp;<a title="Global variable" href="https://en.wikipedia.org/wiki/Global_variable">global</a>&nbsp;namespace anymore, closing possible security holes in applications.</td>
+</tr>
+<tr>
+<td title="Old version, no longer maintained" data-sort-value="4.3">4.3</td>
+<td>27 December 2002</td>
+<td>31 March 2005</td>
+<td>Introduced the&nbsp;<a title="Command-line interface" href="https://en.wikipedia.org/wiki/Command-line_interface">command-line interface</a>&nbsp;(CLI), to supplement the CGI.</td>
+</tr>
+<tr>
+<td title="Old version, no longer maintained" data-sort-value="4.4">4.4</td>
+<td>11 July 2005</td>
+<td>7 August 2008</td>
+<td>Fixed a memory corruption bug, which required breaking binary compatibility with extensions compiled against PHP version 4.3.x.</td>
+</tr>
+<tr>
+<td title="Old version, no longer maintained" data-sort-value="5.0">5.0</td>
+<td>13 July 2004</td>
+<td>5 September 2005</td>
+<td>Zend Engine II with a new object model.</td>
+</tr>
+<tr>
+<td title="Old version, no longer maintained" data-sort-value="5.1">5.1</td>
+<td>24 November 2005</td>
+<td>24 August 2006</td>
+<td>Performance improvements with introduction of compiler variables in re-engineered PHP Engine.&nbsp;Added PHP Data Objects (PDO) as a consistent interface for accessing databases.</td>
+</tr>
+<tr>
+<td title="Old version, no longer maintained" data-sort-value="5.2">5.2</td>
+<td>2 November 2006</td>
+<td>6 January 2011</td>
+<td>Enabled the filter extension by default. Native&nbsp;<a title="JSON" href="https://en.wikipedia.org/wiki/JSON">JSON</a>&nbsp;support.</td>
+</tr>
+<tr>
+<td title="Old version, no longer maintained" data-sort-value="5.3">5.3</td>
+<td>30 June 2009</td>
+<td>14 August 2014</td>
+<td><a title="Namespace" href="https://en.wikipedia.org/wiki/Namespace">Namespace</a>&nbsp;support;&nbsp;<a title="Name binding" href="https://en.wikipedia.org/wiki/Name_binding">late static bindings</a>, jump label (limited&nbsp;<a title="Goto" href="https://en.wikipedia.org/wiki/Goto">goto</a>),&nbsp;<a class="mw-redirect" title="Closure (computer science)" href="https://en.wikipedia.org/wiki/Closure_(computer_science)">closures</a>, PHP archives (phar),&nbsp;<a title="Garbage collection (computer science)" href="https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)">garbage collection</a>&nbsp;for circular references, improved&nbsp;<a title="Microsoft Windows" href="https://en.wikipedia.org/wiki/Microsoft_Windows">Windows</a>&nbsp;support, sqlite3, mysqlnd as a replacement for libmysql as underlying library for the extensions that work with&nbsp;<a title="MySQL" href="https://en.wikipedia.org/wiki/MySQL">MySQL</a>, fileinfo as a replacement for mime_magic for better&nbsp;<a title="MIME" href="https://en.wikipedia.org/wiki/MIME">MIME</a>&nbsp;support, the Internationalization extension, and deprecation of ereg extension.</td>
+</tr>
+<tr>
+<td title="Old version, no longer maintained" data-sort-value="5.4">5.4</td>
+<td>1 March 2012</td>
+<td>3 September 2015</td>
+<td><a title="Trait (computer programming)" href="https://en.wikipedia.org/wiki/Trait_(computer_programming)">Trait</a>&nbsp;support, short array syntax support. Removed items:&nbsp;<code>register_globals</code>,&nbsp;<code>safe_mode</code>,&nbsp;<code>allow_call_time_pass_reference</code>,&nbsp;<code id="" class="mw-highlight mw-highlight-lang-php" dir="ltr"><span class="nb">session_register</span><span class="p">()</span></code>,&nbsp;<code id="" class="mw-highlight mw-highlight-lang-php" dir="ltr"><span class="nb">session_unregister</span><span class="p">()</span></code>&nbsp;and&nbsp;<code id="" class="mw-highlight mw-highlight-lang-php" dir="ltr"><span class="nb">session_is_registered</span><span class="p">()</span></code>. Built-in web server.&nbsp;Several improvements to existing features, performance and reduced memory requirements.</td>
+</tr>
+<tr>
+<td title="Old version, no longer maintained" data-sort-value="5.5">5.5</td>
+<td>20 June 2013</td>
+<td>10 July 2016</td>
+<td>Support for&nbsp;<a title="Generator (computer programming)" href="https://en.wikipedia.org/wiki/Generator_(computer_programming)">generators</a>,&nbsp;<code>finally</code>&nbsp;blocks for exceptions handling, OpCache (based on Zend Optimizer+) bundled in official distribution.</td>
+</tr>
+<tr>
+<td title="Old version, no longer maintained" data-sort-value="5.6">5.6</td>
+<td>28 August 2014</td>
+<td>31 December 2018</td>
+<td>Constant scalar expressions,&nbsp;<a title="Variadic function" href="https://en.wikipedia.org/wiki/Variadic_function">variadic functions</a>, argument unpacking, new exponentiation operator, extensions of the&nbsp;<code>use</code>&nbsp;statement for functions and constants, new&nbsp;<code>phpdbg</code>&nbsp;debugger as a SAPI module, and other smaller improvements.</td>
+</tr>
+<tr>
+<td>6.x</td>
+<td class="table-na" data-sort-value="">Not released</td>
+<td class="table-na" data-sort-value="">N/A</td>
+<td>Abandoned version of PHP that planned to include native Unicode support.</td>
+</tr>
+<tr>
+<td title="Old version, no longer maintained" data-sort-value="7.0">7.0</td>
+<td>3 December 2015</td>
+<td>3 December 2018</td>
+<td>Zend Engine 3 (performance improvements&nbsp;and 64-bit integer support on Windows), uniform variable syntax,&nbsp;<a class="mw-redirect" title="Abstract Syntax Tree" href="https://en.wikipedia.org/wiki/Abstract_Syntax_Tree">AST</a>-based compilation process,&nbsp;added&nbsp;<code id="" class="mw-highlight mw-highlight-lang-php" dir="ltr"><span class="nx">Closure</span><span class="o">::</span><span class="na">call</span><span class="p">()</span></code>,&nbsp;bitwise shift consistency across platforms,<span style="font-size: xx-small;">&nbsp;</span><code id="" class="mw-highlight mw-highlight-lang-php" dir="ltr"><span class="o">??</span></code>&nbsp;(<a title="Null coalescing operator" href="https://en.wikipedia.org/wiki/Null_coalescing_operator">null coalesce</a>) operator,&nbsp;<a title="Unicode" href="https://en.wikipedia.org/wiki/Unicode">Unicode</a>&nbsp;code point&nbsp;<a title="String literal" href="https://en.wikipedia.org/wiki/String_literal#Escape_sequences">escape syntax</a>,&nbsp;return type declarations, scalar type (integer, float, string and boolean) declarations,&nbsp;<code>&lt;=&gt;</code>&nbsp;"spaceship"&nbsp;<a title="Three-way comparison" href="https://en.wikipedia.org/wiki/Three-way_comparison">three-way comparison</a>&nbsp;operator,&nbsp;<a title="Generator (computer programming)" href="https://en.wikipedia.org/wiki/Generator_(computer_programming)">generator</a>&nbsp;delegation,&nbsp;<a class="mw-redirect" title="Anonymous class" href="https://en.wikipedia.org/wiki/Anonymous_class">anonymous classes</a>,&nbsp;simpler and more consistently available&nbsp;<a class="mw-redirect" title="CSPRNG" href="https://en.wikipedia.org/wiki/CSPRNG">CSPRNG</a>&nbsp;API,&nbsp;replacement of many remaining internal PHP "errors" with the more modern&nbsp;<a class="mw-redirect" title="Exception (computer science)" href="https://en.wikipedia.org/wiki/Exception_(computer_science)">exceptions</a>,&nbsp;and shorthand syntax for importing multiple items from a namespace.</td>
+</tr>
+<tr>
+<td title="Old version, no longer maintained" data-sort-value="7.1">7.1</td>
+<td>1 December 2016</td>
+<td>1 December 2019</td>
+<td><a title="Void type" href="https://en.wikipedia.org/wiki/Void_type">void return type</a>,&nbsp;class constant&nbsp;<a title="Information hiding" href="https://en.wikipedia.org/wiki/Information_hiding">visibility modifiers</a></td>
+</tr>
+<tr>
+<td class="templateVersion co" title="Older version, yet still maintained" data-sort-value="7.2">7.2</td>
+<td>30 November 2017</td>
+<td>30 November 2020</td>
+<td>Object parameter and return type hint,&nbsp;Libsodium extension,&nbsp;Abstract method overriding,&nbsp;Parameter type widening</td>
+</tr>
+<tr>
+<td class="templateVersion co" title="Older version, yet still maintained" data-sort-value="7.3">7.3</td>
+<td>6 December 2018</td>
+<td>6 December 2021</td>
+<td>Flexible&nbsp;<a title="Here document" href="https://en.wikipedia.org/wiki/Here_document#PHP">Heredoc</a>&nbsp;and Nowdoc syntax,&nbsp;support for reference assignment and array deconstruction with list(),&nbsp;PCRE2 support,&nbsp;hrtime() function</td>
+</tr>
+<tr>
+<td class="templateVersion c" title="Current stable version" data-sort-value="7.4"><strong>7.4</strong></td>
+<td>28 November 2019</td>
+<td>28 November 2022</td>
+<td>Typed Properties 2.0,&nbsp;Preloading,&nbsp;Null Coalescing Assignment Operator,&nbsp;Improve openssl_random_pseudo_bytes,&nbsp;Weak References,&nbsp;FFI&nbsp;&ndash; Foreign Function Interface
+<p>Always available hash extension,&nbsp;Password Hash Registry,&nbsp;Split multibyte string,&nbsp;Reflection for references,&nbsp;Unbundle ext/wddx,&nbsp;New custom object serialization mechanism</p>
+</td>
+</tr>
+<tr>
+<td class="templateVersion p" title="Future release" data-sort-value="8.0">8.0</td>
+<td>Q4 2020 or Q1 2021</td>
+<td>Q4 2023 or Q1 2024</td>
+<td><a title="Just-in-time compilation" href="https://en.wikipedia.org/wiki/Just-in-time_compilation">Just In Time compilation (JIT)</a>,&nbsp;arrays starting with a negative index,&nbsp;consistent type errors for internal functions,&nbsp;fatal error for incompatible method signatures</td>
+</tr>
+<tr class="sortbottom">
+<td colspan="4">
+<div class="templateVersion l">
+<div><strong>Legend:</strong></div>
+<div><span title="Old version, no longer maintained">Old version</span></div>
+<div><span title="An older version, yet still maintained">Older version, still maintained</span></div>
+<div><span title="Latest stable version"><strong>Latest version</strong></span></div>
+<div><span title="Latest preview of a future release">Latest preview version</span></div>
+<div><span title="A future release">Future release</span></div>
+<div>&nbsp;</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Beginning on June 28, 2011, the PHP Development Team implemented a timeline for the release of new versions of PHP.&nbsp;Under this system, at least one release should occur every month. Once per year, a minor release should occur which may include new features. Every minor release should at least be supported for two years with security and bug fixes, followed by at least one year of only security fixes, for a total of a three-year release process for every minor release. No new features, unless small and self-contained, are to be introduced into a minor release during the three-year release process. Latest versions of PHP are PHP 7.2.27, PHP 7.3.14 and PHP 7.4.3 released on 20 Feb 2020.</p>
+
+
+
 
