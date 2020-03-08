@@ -298,6 +298,7 @@ This is an example of custom PHP code for the&nbsp;<a title="WordPress" href="ht
 The elePHPant, PHP mascot</div>
 </div>
 </div>
+</br>
 <p>The mascot of the PHP project is the&nbsp;<em>elePHPant</em>, a blue&nbsp;<a title="Elephant" href="https://en.wikipedia.org/wiki/Elephant">elephant</a>&nbsp;with the PHP logo on its side, designed by Vincent Pontier&nbsp;in 1998.&nbsp;"The (PHP) letters were forming the shape of an elephant if viewed in a sideways angle."&nbsp;The elePHPant is sometimes differently colored when in&nbsp;<a class="mw-redirect" title="Plush toy" href="https://en.wikipedia.org/wiki/Plush_toy">plush toy</a>&nbsp;form.</p>
 <p>Many variations of this mascot have been made over the years. Only the elePHPants based on the original design by Vincent Pontier are considered official by the community.&nbsp;These are collectible and some of them are extremely rare. Different variations are listed on&nbsp;<a class="external text" href="http://afieldguidetoelephpants.net/" rel="nofollow">A Field Guide to Elephpants</a>.</p>
 <div>&nbsp;</div>
