@@ -338,17 +338,21 @@ The elePHPant, PHP mascot</div>
 <p>PHP defines a large array of functions in the core language and many are also available in various extensions; these functions are well documented in the online PHP documentation.&nbsp;However, the built-in library has a wide variety of naming conventions and associated inconsistencies, as described under&nbsp;<a href="https://en.wikipedia.org/wiki/PHP#History">history</a>&nbsp;above.</p>
 <p>Custom functions may be defined by the developer:</p>
 <div class="mw-highlight mw-highlight-lang-php mw-content-ltr" dir="ltr">
-<pre><span class="k">function</span> <span class="nf">myAge</span><span class="p">(</span><span class="nx">int</span> <span class="nv">$birthYear</span><span class="p">)</span><span class="o">:</span> <span class="nx">string</span>
-<span class="p">{</span>
-    <span class="c1">// calculate the age by subtracting the birth year from the current year.</span>
-    <span class="nv">$yearsOld</span> <span class="o">=</span> <span class="nb">date</span><span class="p">(</span><span class="s1">'Y'</span><span class="p">)</span> <span class="o">-</span> <span class="nv">$birthYear</span><span class="p">;</span>
 
-    <span class="c1">// return the age in a descriptive string.</span>
-    <span class="k">return</span> <span class="nv">$yearsOld</span> <span class="o">.</span> <span class="s1">' year'</span> <span class="o">.</span> <span class="p">(</span><span class="nv">$yearsOld</span> <span class="o">!=</span> <span class="mi">1</span> <span class="o">?</span> <span class="s1">'s'</span><span class="o">:</span><span class="s1">''</span><span class="p">);</span>
-<span class="p">}</span>
+```PHP language
+function myAge(int $birthYear): string
+{
+    // calculate the age by subtracting the birth year from the current year.
+    $yearsOld = date('Y') - $birthYear;
 
-<span class="k">echo</span> <span class="s1">'I am currently '</span> <span class="o">.</span> <span class="nx">myAge</span><span class="p">(</span><span class="mi">1995</span><span class="p">)</span> <span class="o">.</span> <span class="s1">' old.'</span><span class="p">;</span>
-</pre>
+    // return the age in a descriptive string.
+    return $yearsOld . ' year' . ($yearsOld != 1 ? 's':'');
+}
+
+echo 'I am currently ' . myAge(1995) . ' old.';
+```
+----------------------------------------
+
 </div>
 <p>In 2020, the output of the above sample program is 'I am currently 25 years old.'</p>
 <p>In lieu of&nbsp;<a title="Function pointer" href="https://en.wikipedia.org/wiki/Function_pointer">function pointers</a>, functions in PHP can be referenced by a string containing their name. In this manner, normal PHP functions can be used, for example, as&nbsp;<a class="mw-redirect" title="Callback function" href="https://en.wikipedia.org/wiki/Callback_function">callbacks</a>&nbsp;or within&nbsp;<a class="mw-redirect" title="Function table" href="https://en.wikipedia.org/wiki/Function_table">function tables</a>.&nbsp;User-defined functions may be created at any time without being&nbsp;<a title="Function prototype" href="https://en.wikipedia.org/wiki/Function_prototype">prototyped</a>.&nbsp;Functions may be defined inside code blocks, permitting a&nbsp;<a title="Dynamic dispatch" href="https://en.wikipedia.org/wiki/Dynamic_dispatch">run-time decision</a>&nbsp;as to whether or not a function should be defined. There is a&nbsp;<code>function_exists</code>&nbsp;function that determines whether a function with a given name has already been defined. Function calls must use parentheses, with the exception of zero-argument class&nbsp;<a class="mw-redirect" title="Constructor (computer science)" href="https://en.wikipedia.org/wiki/Constructor_(computer_science)">constructor</a>&nbsp;functions called with the PHP operator&nbsp;<code>new</code>, in which case parentheses are optional.</p>
