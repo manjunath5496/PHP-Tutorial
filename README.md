@@ -24,7 +24,7 @@
 </tr>
 <tr>
 <th scope="row">First&nbsp;appeared</th>
-<td>1995<span class="noprint">; 25&nbsp;years ago</span><sup id="cite_ref-mysqlconference_1-0" class="reference"><a href="https://en.wikipedia.org/wiki/PHP#cite_note-mysqlconference-1">[1]</a></sup></td>
+<td>1995<span class="noprint">; 25&nbsp;years ago</span></td>
 </tr>
 <tr>
 <td colspan="2">&nbsp;</td>
@@ -32,14 +32,14 @@
 <tr>
 <th scope="row"><a title="Software release life cycle" href="https://en.wikipedia.org/wiki/Software_release_life_cycle">Stable release</a></th>
 <td>
-<div>7.4.3<sup id="cite_ref-2" class="reference"><a href="https://en.wikipedia.org/wiki/PHP#cite_note-2">[2]</a></sup>&nbsp;/ February&nbsp;20, 2020<span class="noprint">; 17 days ago</span></div>
+<div>7.4.3&nbsp;/ February&nbsp;20, 2020<span class="noprint">; 17 days ago</span></div>
 </td>
 </tr>
 <tr>
 <th scope="row"><a title="Type system" href="https://en.wikipedia.org/wiki/Type_system">Typing discipline</a></th>
 <td><a class="mw-redirect" title="Dynamic typing" href="https://en.wikipedia.org/wiki/Dynamic_typing">Dynamic</a>,&nbsp;<a class="mw-redirect" title="Weak typing" href="https://en.wikipedia.org/wiki/Weak_typing">weak</a>
 <p><strong>since version 7.0:</strong></p>
-<a title="Gradual typing" href="https://en.wikipedia.org/wiki/Gradual_typing">Gradual</a><sup id="cite_ref-3" class="reference"><a href="https://en.wikipedia.org/wiki/PHP#cite_note-3">[3]</a></sup></td>
+<a title="Gradual typing" href="https://en.wikipedia.org/wiki/Gradual_typing">Gradual</a></td>
 </tr>
 <tr>
 <th scope="row">Implementation language</th>
@@ -71,7 +71,7 @@
 <th colspan="2">Influenced by</th>
 </tr>
 <tr>
-<td colspan="2"><a title="Perl" href="https://en.wikipedia.org/wiki/Perl">Perl</a>,&nbsp;<a title="C (programming language)" href="https://en.wikipedia.org/wiki/C_(programming_language)">C</a>,&nbsp;<a title="C++" href="https://en.wikipedia.org/wiki/C%2B%2B">C++</a>,&nbsp;<a title="Java (programming language)" href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a>,&nbsp;<a title="Tcl" href="https://en.wikipedia.org/wiki/Tcl">Tcl</a>,<sup id="cite_ref-mysqlconference_1-1" class="reference"><a href="https://en.wikipedia.org/wiki/PHP#cite_note-mysqlconference-1">[1]</a></sup>&nbsp;<a title="JavaScript" href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a>,&nbsp;<a title="Hack (programming language)" href="https://en.wikipedia.org/wiki/Hack_(programming_language)">Hack</a><sup id="cite_ref-optimisation_ideas_4-0" class="reference"><a href="https://en.wikipedia.org/wiki/PHP#cite_note-optimisation_ideas-4">[4]</a></sup></td>
+<td colspan="2"><a title="Perl" href="https://en.wikipedia.org/wiki/Perl">Perl</a>,&nbsp;<a title="C (programming language)" href="https://en.wikipedia.org/wiki/C_(programming_language)">C</a>,&nbsp;<a title="C++" href="https://en.wikipedia.org/wiki/C%2B%2B">C++</a>,&nbsp;<a title="Java (programming language)" href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a>,&nbsp;<a title="Tcl" href="https://en.wikipedia.org/wiki/Tcl">Tcl</a>,<span style="font-size: xx-small;">&nbsp;</span><a title="JavaScript" href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a>,&nbsp;<a title="Hack (programming language)" href="https://en.wikipedia.org/wiki/Hack_(programming_language)">Hack</a></td>
 </tr>
 <tr>
 <th colspan="2">Influenced</th>
@@ -81,14 +81,11 @@
 </tr>
 <tr>
 <td class="hlist" colspan="2">
-<ul>
-<li><a class="image" href="logo.png"><img class="noviewer" src="logo.png" srcset="logo.png" alt="" width="16" height="16" data-file-width="400" data-file-height="400" /></a>&nbsp;<a class="extiw" title="wikibooks:PHP Programming" href="https://en.wikibooks.org/wiki/PHP_Programming">PHP Programming</a>&nbsp;at Wikibooks</li>
-</ul>
+<p><a class="image" href="logo.png"><img class="noviewer" src="logo.png" srcset="logo.png" alt="" width="16" height="16" data-file-width="400" data-file-height="400" /></a>&nbsp;<a class="extiw" title="wikibooks:PHP Programming" href="https://en.wikibooks.org/wiki/PHP_Programming">PHP Programming</a>&nbsp;at Wikibooks</p>
 </td>
 </tr>
 </tbody>
 </table>
-
 </br>
 
 
