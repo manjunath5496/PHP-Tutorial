@@ -696,6 +696,36 @@ Learn PHP in 24 Hours or Less</a></li>
  <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(29).pdf" style="text-decoration:none;">PHP, MySQL, JavaScript and HTML5 All-in-One For Dummies</a></li>                              
 <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(30).pdf" style="text-decoration:none;">Practical PHP and MySQL Website Databases</a></li>
 
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(31).pdf" style="text-decoration:none;">Easy PHP Websites with the Zend Framework</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(32).pdf" style="text-decoration:none;">Laravel: Up and Running: A Framework for Building Modern PHP Apps</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(33).pdf" style="text-decoration:none;">Learning PHP Design Patterns</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(34).pdf" style="text-decoration:none;">Migrating a PHP 5 App to PHP 7</a></li>
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(35).pdf" style="text-decoration:none;">Node.js for PHP Developers</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(36).pdf" style="text-decoration:none;">PHP 5 e-commerce Development</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(37).pdf" style="text-decoration:none;">PHP and MySQL Web Development: Master the Concepts of PHP: A Step By Step Process</a></li>
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(38).pdf" style="text-decoration:none;">PHP Cookbook</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(39).pdf" style="text-decoration:none;">Php: Learn PHP In A DAY! - The Ultimate Crash Course to Learning the Basics of PHP In No Time</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(40).pdf" style="text-decoration:none;">PHP: The Good Parts</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(41).pdf" style="text-decoration:none;">Plug-In PHP: 100 Power Solutions: Simple Solutions to Practical PHP Problems</a></li>
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(42).pdf" style="text-decoration:none;">Pro PHP MVC</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(43).pdf" style="text-decoration:none;">Sams Teach Yourself PHP, MySQL and Apache All in One</a></li>
+
+
+
+
+
+
+
+
+
+
 
 </ul>
 
