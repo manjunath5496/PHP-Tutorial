@@ -718,14 +718,27 @@ Learn PHP in 24 Hours or Less</a></li>
 <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(43).pdf" style="text-decoration:none;">Sams Teach Yourself PHP, MySQL and Apache All in One</a></li>
 
 
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(44).pdf" style="text-decoration:none;">PHP 5 Power Programming</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(45).pdf" style="text-decoration:none;">AJAX and PHP: Building Modern Web Applications </a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(46).pdf" style="text-decoration:none;">PHP for Absolute Beginners</a></li>
 
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(47).pdf" style="text-decoration:none;">Guide to HTML, JavaScript and PHP</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(48).pdf" style="text-decoration:none;">Mastering PHP 7</a></li>
 
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(49).pdf" style="text-decoration:none;">PHP Microservices</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(50).pdf" style="text-decoration:none;">PHP Extension Writing</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(51).pdf" style="text-decoration:none;">Visual QuickStart Guide: PHP for the Web</a></li>
 
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(52).pdf" style="text-decoration:none;">PHP Notes for Professionals</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(53).pdf" style="text-decoration:none;">Pro PHP Application Performance</a></li>
 
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(54).pdf" style="text-decoration:none;">Professional PHP Programming</a></li>
 
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(55).pdf" style="text-decoration:none;">Realtime Web Apps: With HTML5 WebSocket, PHP, and jQuery</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(56).pdf" style="text-decoration:none;">The PHP Anthology, Volume I: Foundations</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(57).pdf" style="text-decoration:none;">Writing APIs with Lumen: A Hands-on Guide to Writing API Services With PHP</a></li>
 
-
-
+ 
 
 </ul>
 
