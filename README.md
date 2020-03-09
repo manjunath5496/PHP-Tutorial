@@ -637,3 +637,29 @@ Dynamic web page: example of&nbsp;<a title="Server-side scripting" href="https:/
 <p>Also, enabling the dynamic loading of PHP extensions (via&nbsp;<code>enable_dl</code>&nbsp;configuration directive)&nbsp;in a&nbsp;<a class="mw-redirect" title="Shared web hosting" href="https://en.wikipedia.org/wiki/Shared_web_hosting">shared web hosting</a>&nbsp;environment can lead to security issues.</p>
 <p>Implied&nbsp;<a title="Type conversion" href="https://en.wikipedia.org/wiki/Type_conversion">type conversions</a>&nbsp;that result in different values being treated as equal, sometimes against the programmer's intent, can lead to security issues. For example, the result of the comparison&nbsp;<span class="nowrap"><code>'0e1234' == '0'</code></span>&nbsp;is&nbsp;<code>true</code>, because strings that are parseable as numbers are converted to numbers; in this case, the first compared value is treated as&nbsp;<a title="Scientific notation" href="https://en.wikipedia.org/wiki/Scientific_notation">scientific notation</a>&nbsp;having the value (<span class="nowrap">0&times;10<sup>1234</sup></span>), which is zero. Errors like this resulted in authentication vulnerabilities in&nbsp;<a title="Simple Machines Forum" href="https://en.wikipedia.org/wiki/Simple_Machines_Forum">Simple Machines Forum</a>,&nbsp;<a class="mw-redirect" title="Typo3" href="https://en.wikipedia.org/wiki/Typo3">Typo3</a>&nbsp;and&nbsp;<a title="PhpBB" href="https://en.wikipedia.org/wiki/PhpBB">phpBB</a>&nbsp;when&nbsp;<a title="MD5" href="https://en.wikipedia.org/wiki/MD5">MD5</a>&nbsp;<a class="mw-redirect" title="Password hashing" href="https://en.wikipedia.org/wiki/Password_hashing">password hashes</a>&nbsp;were compared. The recommended way is to use&nbsp;<a class="external text" href="https://secure.php.net/hash_equals" rel="nofollow">hash_equals()</a>&nbsp;(for&nbsp;<a title="Timing attack" href="https://en.wikipedia.org/wiki/Timing_attack">timing attack</a>&nbsp;safety),&nbsp;<code><a class="mw-redirect" title="Strcmp" href="https://en.wikipedia.org/wiki/Strcmp">strcmp</a></code>&nbsp;or the identity operator (<code>===</code>), as&nbsp;<span class="nowrap"><code>'0e1234' === '0'</code></span>&nbsp;results in&nbsp;<code>false</code>.</p>
 <p>In a 2013 analysis of over 170,000&nbsp;<a title="Website defacement" href="https://en.wikipedia.org/wiki/Website_defacement">website defacements</a>, published by&nbsp;<a title="Zone-H" href="https://en.wikipedia.org/wiki/Zone-H">Zone-H</a>, the most frequently (53%) used technique was exploitation of&nbsp;<a title="File inclusion vulnerability" href="https://en.wikipedia.org/wiki/File_inclusion_vulnerability">file inclusion vulnerability</a>, mostly related to insecure usage of the PHP functions&nbsp;<code>include</code>,&nbsp;<code>require</code>, and&nbsp;<code>allow_url_fopen</code>.<sup id="cite_ref-239" class="reference"></sup></p>
+</br>
+
+<ul>
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(6).pdf" style="text-decoration:none;">PHP syntax and semantics</a></li>
+                            
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(7).pdf" style="text-decoration:none;">PHP: Extension structure - Manual</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(8).pdf" style="text-decoration:none;">PHP: Function arguments - Manual</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(9).pdf" style="text-decoration:none;">PHP: History of PHP - Manual</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(10).pdf" style="text-decoration:none;">PHP: The "counter" Extension - A Continuing Example - Manual</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(11).pdf" style="text-decoration:none;">PHP projects join forces to Go PHP 5</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(12).pdf" style="text-decoration:none;">Taking PHP Seriously</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(13).pdf" style="text-decoration:none;">Wrapping C++ Classes in a PHP Extension</a></li>
+
+
+
+
+
+
+</ul>
+
+
+
+
+</br>
