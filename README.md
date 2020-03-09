@@ -738,7 +738,36 @@ Learn PHP in 24 Hours or Less</a></li>
  <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(56).pdf" style="text-decoration:none;">The PHP Anthology, Volume I: Foundations</a></li>                              
 <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(57).pdf" style="text-decoration:none;">Writing APIs with Lumen: A Hands-on Guide to Writing API Services With PHP</a></li>
 
+  <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(58).pdf" style="text-decoration:none;">A Web-Based Introduction to Programming</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(59).pdf" style="text-decoration:none;">CodeIgniter for Rapid PHP Application Development</a></li>
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(60).pdf" style="text-decoration:none;">Domain-Driven Design in PHP</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(61).pdf" style="text-decoration:none;">Effortless E-Commerce with PHP and MySQL</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(62).pdf" style="text-decoration:none;">Elephant sized PHP</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(63).pdf" style="text-decoration:none;">Joomla! Template Design</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(64).pdf" style="text-decoration:none;">Object-Oriented PHP: Concepts, Techniques, and Code</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(65).pdf" style="text-decoration:none;">PHP 7 Quick Scripting Reference</a></li>
+
  
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(66).pdf" style="text-decoration:none;">PHP and MongoDB Web Development: Beginner's Guide</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(67).pdf" style="text-decoration:none;">PHP in a Nutshell</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(68).pdf" style="text-decoration:none;">PHP, MySQL and JavaScript All-in-One For Dummies</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(69).pdf" style="text-decoration:none;">Php: 20 Lessons to Successful Web Development</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(70).pdf" style="text-decoration:none;">PHP Programming Solutions</a></li>
+
+
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(71).pdf" style="text-decoration:none;">PHP in a Nutshell</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(72).pdf" style="text-decoration:none;">PHP Anthology, Volume 2: Applications</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(73).pdf" style="text-decoration:none;">The Clean Architecture in PHP</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(74).pdf" style="text-decoration:none;">Web Programming with PHP and MySQL</a></li>
+
+
+
 
 </ul>
 
