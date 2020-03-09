@@ -760,12 +760,21 @@ Learn PHP in 24 Hours or Less</a></li>
 <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(70).pdf" style="text-decoration:none;">PHP Programming Solutions</a></li>
 
 
-<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(71).pdf" style="text-decoration:none;">PHP in a Nutshell</a></li>
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(71).pdf" style="text-decoration:none;">PHP 7 in easy steps</a></li>
 
 <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(72).pdf" style="text-decoration:none;">PHP Anthology, Volume 2: Applications</a></li>
  <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(73).pdf" style="text-decoration:none;">The Clean Architecture in PHP</a></li>                              
 <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(74).pdf" style="text-decoration:none;">Web Programming with PHP and MySQL</a></li>
 
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(75).pdf" style="text-decoration:none;">PHP Interview Questions </a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(76).pdf" style="text-decoration:none;">PHP Microservices</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(77).pdf" style="text-decoration:none;">RESTful PHP Web Services</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(78).pdf" style="text-decoration:none;">The Joy of PHP: A Beginner's Guide to Programming Interactive Web Applications with PHP and mySQL</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(79).pdf" style="text-decoration:none;">Webbots, Spiders, and Screen Scrapers: A Guide to Developing Internet Agents with PHP/CURL</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(80).pdf" style="text-decoration:none;">Easy Laravel 5: A Hands On Introduction Using a Real-World Project</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(81).pdf" style="text-decoration:none;">Mastering PHP Design Patterns</a></li>
 
 
 
