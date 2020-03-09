@@ -117,6 +117,7 @@
 <li class="toclevel-1 tocsection-16"><a href="#Installation_and_configuration"><span class="toctext">Installation and configuration</span></a></li>
 <li class="toclevel-1 tocsection-17"><a href="#Use"><span class="toctext">Use</span></a></li>
 <li class="toclevel-1 tocsection-18"><a href="#Security"><span class="toctext">Security</span></a></li>
+ <li class="toclevel-1 tocsection-19"><a href="#Books"><span class="toctext">Books</span></a></li>
 </ul>
 <h2>&nbsp;</h2>
 <h2><span id="History" class="mw-headline">History</span></h2>
@@ -663,3 +664,45 @@ Dynamic web page: example of&nbsp;<a title="Server-side scripting" href="https:/
 
 
 </br>
+
+
+</br>
+<h2 id ="Books">Books </h2>
+<ul>
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(14).pdf" style="text-decoration:none;">MySQL and PHP</a></li>
+                            
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(15).pdf" style="text-decoration:none;">Core PHP Programming</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(16).pdf" style="text-decoration:none;">Design Patterns in PHP and Laravel</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(17).rar" style="text-decoration:none;">PHP and MySQL for Dynamic Web Sites</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(18).pdf" style="text-decoration:none;">Learn PHP 7: Object-Oriented Modular Programming using HTML5, CSS3, JavaScript, XML, JSON, and MySQL</a></li>
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(19).pdf" style="text-decoration:none;">Learning PHP: A Gentle Introduction to the Web’s Most Popular Language</a></li>
+                            
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(20).pdf" style="text-decoration:none;">Learning PHP Data Objects</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(21).pdf" style="text-decoration:none;">Modern PHP: New Features and Good Practices</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(22).pdf" style="text-decoration:none;">PHP and MySQL: The Missing Manual</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(23).pdf" style="text-decoration:none;">PHP and MySQL: Novice to Ninja</a></li>
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(24).pdf" style="text-decoration:none;">PHP 5 Social Networking</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(25).pdf" style="text-decoration:none;">PHP and MySQL Everyday Apps For Dummies</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(26).pdf" style="text-decoration:none;">PHP Beginners Course: Understand basics of PHP / MySQL programming in 5 days</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(27).pdf" style="text-decoration:none;">PHP:
+Learn PHP in 24 Hours or Less</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(28).pdf" style="text-decoration:none;">PHP: The Ultimate Step by Step guide for beginners on how to learn PHP and MYSQL programming in just 6 hours</a></li>
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(29).pdf" style="text-decoration:none;">PHP, MySQL, JavaScript and HTML5 All-in-One For Dummies</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(30).pdf" style="text-decoration:none;">Practical PHP and MySQL Website Databases</a></li>
+
+
+</ul>
+
+</br>
+
+
+
+
+
+
