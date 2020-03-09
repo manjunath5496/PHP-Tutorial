@@ -140,6 +140,28 @@
 </div>
 </div>
 </div>
+
+
+</br>
+<h2>Publications </h2>
+<ul>
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(1).pdf" style="text-decoration:none;">PHP - Advanced Tutorial</a></li>
+                            
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(2).pdf" style="text-decoration:none;">Programming PHP</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(3).pdf" style="text-decoration:none;">PHP Tips and Tricks</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(4).pdf" style="text-decoration:none;">PHP Pocket Reference</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(5).pdf" style="text-decoration:none;">Interview PHP's Creator, Rasmus Lerdorf</a></li>
+
+</ul>
+
+</br>
+
+
+
+
+
+
 <p>PHP development began in 1994 when&nbsp;<a title="Rasmus Lerdorf" href="https://en.wikipedia.org/wiki/Rasmus_Lerdorf">Rasmus Lerdorf</a>&nbsp;wrote several&nbsp;<a title="Common Gateway Interface" href="https://en.wikipedia.org/wiki/Common_Gateway_Interface">Common Gateway Interface</a>&nbsp;(CGI) programs in C,&nbsp;which he used to maintain his&nbsp;<a class="mw-redirect" title="Personal homepage" href="https://en.wikipedia.org/wiki/Personal_homepage">personal homepage</a>. He extended them to work with&nbsp;<a class="mw-redirect" title="Web form" href="https://en.wikipedia.org/wiki/Web_form">web forms</a>&nbsp;and to communicate with&nbsp;<a title="Database" href="https://en.wikipedia.org/wiki/Database">databases</a>, and called this implementation "Personal Home Page/Forms Interpreter" or PHP/FI.</p>
 <p>PHP/FI could be used to build simple,&nbsp;<a class="mw-redirect" title="Dynamic web application" href="https://en.wikipedia.org/wiki/Dynamic_web_application">dynamic web applications</a>. To accelerate&nbsp;<a title="Software bug" href="https://en.wikipedia.org/wiki/Software_bug">bug</a>&nbsp;reporting and improve the code, Lerdorf initially announced the release of PHP/FI as "Personal Home Page Tools (PHP Tools) version 1.0" on the&nbsp;<a title="Usenet" href="https://en.wikipedia.org/wiki/Usenet">Usenet</a>&nbsp;discussion group&nbsp;<em>comp.infosystems.www.authoring.cgi</em>&nbsp;on June 8, 1995.&nbsp;This release already had the basic functionality that PHP has today. This included&nbsp;<a title="Local variable" href="https://en.wikipedia.org/wiki/Local_variable#Local_variables_in_Perl">Perl-like variables</a>, form handling, and the ability to embed HTML. The&nbsp;<a title="Syntax" href="https://en.wikipedia.org/wiki/Syntax">syntax</a>&nbsp;resembled that of Perl, but was simpler, more limited and less consistent.</p>
 <div>&nbsp;</div>
