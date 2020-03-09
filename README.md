@@ -3,6 +3,95 @@
 <p>The standard PHP interpreter, powered by the&nbsp;<a title="Zend Engine" href="https://en.wikipedia.org/wiki/Zend_Engine">Zend Engine</a>, is&nbsp;<a title="Free software" href="https://en.wikipedia.org/wiki/Free_software">free software</a>&nbsp;released under the&nbsp;<a title="PHP License" href="https://en.wikipedia.org/wiki/PHP_License">PHP License</a>. PHP has been widely ported and can be deployed on most web servers on almost every&nbsp;<a title="Operating system" href="https://en.wikipedia.org/wiki/Operating_system">operating system</a>&nbsp;and&nbsp;<a title="Computing platform" href="https://en.wikipedia.org/wiki/Computing_platform">platform</a>, free of charge.</p>
 <p>The PHP language evolved without a written&nbsp;<a title="Formal specification" href="https://en.wikipedia.org/wiki/Formal_specification">formal specification</a>&nbsp;or standard until 2014, with the original implementation acting as the&nbsp;<em><a title="De facto" href="https://en.wikipedia.org/wiki/De_facto">de facto</a></em>&nbsp;standard which other implementations aimed to follow. Since 2014, work has gone on to create a formal PHP specification.</p>
 <p>As of February&nbsp;2020, over half of sites on the web using PHP are still on&nbsp;<a title="End-of-life (product)" href="https://en.wikipedia.org/wiki/End-of-life_(product)#Computing">discontinued/"EOLed"</a>&nbsp;version 5.6 or older;&nbsp;and over 55% of all websites in the world run versions prior to 7.2, that are neither officially supported by The PHP Development Team,&nbsp;while security support is provided by third parties, such as&nbsp;<a title="Debian" href="https://en.wikipedia.org/wiki/Debian">Debian</a>&nbsp;(up to June 2020 for PHP 5).</p>
+</br>
+
+<table class="infobox vevent">
+<tbody>
+<tr>
+<td colspan="2"><a class="image" href="PHP-logo.png"><img src="PHP-logo.png" srcset="PHP-logo.png" alt="PHP-logo.svg" width="100" height="54" data-file-width="711" data-file-height="384" /></a></td>
+</tr>
+<tr>
+<th scope="row"><a title="Programming paradigm" href="https://en.wikipedia.org/wiki/Programming_paradigm">Paradigm</a></th>
+<td><a title="Imperative programming" href="https://en.wikipedia.org/wiki/Imperative_programming">Imperative</a>,&nbsp;<a title="Functional programming" href="https://en.wikipedia.org/wiki/Functional_programming">functional</a>,&nbsp;<a title="Object-oriented programming" href="https://en.wikipedia.org/wiki/Object-oriented_programming">object-oriented</a>,&nbsp;<a title="Procedural programming" href="https://en.wikipedia.org/wiki/Procedural_programming">procedural</a>,&nbsp;<a class="mw-redirect" title="Reflective programming" href="https://en.wikipedia.org/wiki/Reflective_programming">reflective</a></td>
+</tr>
+<tr>
+<th scope="row"><a title="Software design" href="https://en.wikipedia.org/wiki/Software_design">Designed&nbsp;by</a></th>
+<td><a title="Rasmus Lerdorf" href="https://en.wikipedia.org/wiki/Rasmus_Lerdorf">Rasmus Lerdorf</a></td>
+</tr>
+<tr>
+<th scope="row"><a class="mw-redirect" title="Software developer" href="https://en.wikipedia.org/wiki/Software_developer">Developer</a></th>
+<td class="organiser">The PHP Development Team,&nbsp;<a title="Zend Technologies" href="https://en.wikipedia.org/wiki/Zend_Technologies">Zend Technologies</a></td>
+</tr>
+<tr>
+<th scope="row">First&nbsp;appeared</th>
+<td>1995<span class="noprint">; 25&nbsp;years ago</span><sup id="cite_ref-mysqlconference_1-0" class="reference"><a href="https://en.wikipedia.org/wiki/PHP#cite_note-mysqlconference-1">[1]</a></sup></td>
+</tr>
+<tr>
+<td colspan="2">&nbsp;</td>
+</tr>
+<tr>
+<th scope="row"><a title="Software release life cycle" href="https://en.wikipedia.org/wiki/Software_release_life_cycle">Stable release</a></th>
+<td>
+<div>7.4.3<sup id="cite_ref-2" class="reference"><a href="https://en.wikipedia.org/wiki/PHP#cite_note-2">[2]</a></sup>&nbsp;/ February&nbsp;20, 2020<span class="noprint">; 17 days ago</span></div>
+</td>
+</tr>
+<tr>
+<th scope="row"><a title="Type system" href="https://en.wikipedia.org/wiki/Type_system">Typing discipline</a></th>
+<td><a class="mw-redirect" title="Dynamic typing" href="https://en.wikipedia.org/wiki/Dynamic_typing">Dynamic</a>,&nbsp;<a class="mw-redirect" title="Weak typing" href="https://en.wikipedia.org/wiki/Weak_typing">weak</a>
+<p><strong>since version 7.0:</strong></p>
+<a title="Gradual typing" href="https://en.wikipedia.org/wiki/Gradual_typing">Gradual</a><sup id="cite_ref-3" class="reference"><a href="https://en.wikipedia.org/wiki/PHP#cite_note-3">[3]</a></sup></td>
+</tr>
+<tr>
+<th scope="row">Implementation language</th>
+<td><a title="C (programming language)" href="https://en.wikipedia.org/wiki/C_(programming_language)">C</a>&nbsp;(primarily; some components&nbsp;<a title="C++" href="https://en.wikipedia.org/wiki/C%2B%2B">C++</a>)</td>
+</tr>
+<tr>
+<th scope="row"><a title="Operating system" href="https://en.wikipedia.org/wiki/Operating_system">OS</a></th>
+<td><a title="Unix-like" href="https://en.wikipedia.org/wiki/Unix-like">Unix-like</a>,&nbsp;<a class="mw-redirect" title="Windows" href="https://en.wikipedia.org/wiki/Windows">Windows</a></td>
+</tr>
+<tr>
+<th scope="row"><a title="Software license" href="https://en.wikipedia.org/wiki/Software_license">License</a></th>
+<td><a title="PHP License" href="https://en.wikipedia.org/wiki/PHP_License">PHP License</a>&nbsp;(most of Zend engine under&nbsp;<a class="mw-redirect" title="Zend Engine License" href="https://en.wikipedia.org/wiki/Zend_Engine_License">Zend Engine License</a>)</td>
+</tr>
+<tr>
+<th scope="row"><a title="Filename extension" href="https://en.wikipedia.org/wiki/Filename_extension">Filename extensions</a></th>
+<td><code>.php</code>,&nbsp;<code>.phtml</code>,&nbsp;<code>.php3</code>,&nbsp;<code>.php4</code>,&nbsp;<code>.php5</code>,&nbsp;<code>.php7</code>,&nbsp;<code>.phps</code>,&nbsp;<code>.php-s</code>,&nbsp;<code>.pht</code>,&nbsp;<code>.phar</code></td>
+</tr>
+<tr>
+<th scope="row">Website</th>
+<td><span class="url"><a class="external text" href="https://www.php.net/" rel="nofollow">www<wbr />.php<wbr />.net</a></span></td>
+</tr>
+<tr>
+<th colspan="2">Major&nbsp;<a title="Programming language implementation" href="https://en.wikipedia.org/wiki/Programming_language_implementation">implementations</a></th>
+</tr>
+<tr>
+<td colspan="2"><a title="Zend Engine" href="https://en.wikipedia.org/wiki/Zend_Engine">Zend Engine</a>,&nbsp;<a title="HHVM" href="https://en.wikipedia.org/wiki/HHVM">HHVM</a>,&nbsp;<a title="Phalanger (compiler)" href="https://en.wikipedia.org/wiki/Phalanger_(compiler)">Phalanger</a>,&nbsp;<a class="mw-redirect" title="Quercus (software)" href="https://en.wikipedia.org/wiki/Quercus_(software)">Quercus</a>,&nbsp;<a title="Parrot virtual machine" href="https://en.wikipedia.org/wiki/Parrot_virtual_machine">Parrot</a></td>
+</tr>
+<tr>
+<th colspan="2">Influenced by</th>
+</tr>
+<tr>
+<td colspan="2"><a title="Perl" href="https://en.wikipedia.org/wiki/Perl">Perl</a>,&nbsp;<a title="C (programming language)" href="https://en.wikipedia.org/wiki/C_(programming_language)">C</a>,&nbsp;<a title="C++" href="https://en.wikipedia.org/wiki/C%2B%2B">C++</a>,&nbsp;<a title="Java (programming language)" href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a>,&nbsp;<a title="Tcl" href="https://en.wikipedia.org/wiki/Tcl">Tcl</a>,<sup id="cite_ref-mysqlconference_1-1" class="reference"><a href="https://en.wikipedia.org/wiki/PHP#cite_note-mysqlconference-1">[1]</a></sup>&nbsp;<a title="JavaScript" href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a>,&nbsp;<a title="Hack (programming language)" href="https://en.wikipedia.org/wiki/Hack_(programming_language)">Hack</a><sup id="cite_ref-optimisation_ideas_4-0" class="reference"><a href="https://en.wikipedia.org/wiki/PHP#cite_note-optimisation_ideas-4">[4]</a></sup></td>
+</tr>
+<tr>
+<th colspan="2">Influenced</th>
+</tr>
+<tr>
+<td colspan="2"><a title="Hack (programming language)" href="https://en.wikipedia.org/wiki/Hack_(programming_language)">Hack</a></td>
+</tr>
+<tr>
+<td class="hlist" colspan="2">
+<ul>
+<li><a class="image" href="logo.png"><img class="noviewer" src="logo.png" srcset="logo.png" alt="" width="16" height="16" data-file-width="400" data-file-height="400" /></a>&nbsp;<a class="extiw" title="wikibooks:PHP Programming" href="https://en.wikibooks.org/wiki/PHP_Programming">PHP Programming</a>&nbsp;at Wikibooks</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+</br>
+
+
 <div class="toctitle" dir="ltr" lang="en">
 <h2 id="mw-toc-heading">Contents</h2>
 <label class="toctogglelabel" for="toctogglecheckbox"></label></div>
