@@ -428,19 +428,23 @@ The elePHPant, PHP mascot</div>
 <p>In the example above,&nbsp;<code>getAdder()</code>&nbsp;function creates a closure using passed argument&nbsp;<code id="" class="mw-highlight mw-highlight-lang-php" dir="ltr"><span class="nv">$x</span></code>&nbsp;(the keyword&nbsp;<code>use</code>&nbsp;imports a variable from the lexical context), which takes an additional argument&nbsp;<code id="" class="mw-highlight mw-highlight-lang-php" dir="ltr"><span class="nv">$y</span></code>, and returns the created closure to the caller. Such a function is a first-class object, meaning that it can be stored in a variable, passed as a&nbsp;<a title="Parameter (computer programming)" href="https://en.wikipedia.org/wiki/Parameter_(computer_programming)">parameter</a>&nbsp;to other functions, etc.</p>
 <p>Unusually for a dynamically typed language, PHP supports type declarations on function parameters, which are enforced at runtime. This has been supported for classes and interfaces since PHP&nbsp;5.0, for arrays since PHP&nbsp;5.1, for "callables" since PHP&nbsp;5.4, and scalar (integer, float, string and boolean) types since PHP&nbsp;7.0.&nbsp;PHP&nbsp;7.0 also has type declarations for function return types, expressed by placing the type name after the list of parameters, preceded by a colon.&nbsp;For example, the&nbsp;<code>getAdder</code>&nbsp;function from the earlier example could be annotated with types like so in PHP&nbsp;7:</p>
 <div class="mw-highlight mw-highlight-lang-php mw-content-ltr" dir="ltr">
-<pre><span class="k">function</span> <span class="nf">getAdder</span><span class="p">(</span><span class="nx">int</span> <span class="nv">$x</span><span class="p">)</span><span class="o">:</span> <span class="nx">Closure</span>
-<span class="p">{</span>
-    <span class="k">return</span> <span class="k">function</span><span class="p">(</span><span class="nx">int</span> <span class="nv">$y</span><span class="p">)</span> <span class="k">use</span> <span class="p">(</span><span class="nv">$x</span><span class="p">)</span><span class="o">:</span> <span class="nx">int</span>
-    <span class="p">{</span>
-        <span class="k">return</span> <span class="nv">$x</span> <span class="o">+</span> <span class="nv">$y</span><span class="p">;</span>
-    <span class="p">};</span>
-<span class="p">}</span>
+  
+ ```PHP language
+function getAdder(int $x): Closure
+{
+    return function(int $y) use ($x): int
+    {
+        return $x + $y;
+    };
+}
 
-<span class="nv">$adder</span> <span class="o">=</span> <span class="nx">getAdder</span><span class="p">(</span><span class="mi">8</span><span class="p">);</span>
-<span class="k">echo</span> <span class="nv">$adder</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span> <span class="c1">// prints "10"</span>
-<span class="k">echo</span> <span class="nv">$adder</span><span class="p">(</span><span class="k">null</span><span class="p">);</span> <span class="c1">// throws an exception because an incorrect type was passed</span>
-<span class="nv">$adder</span> <span class="o">=</span> <span class="nx">getAdder</span><span class="p">([]);</span> <span class="c1">// would also throw an exception</span>
-</pre>
+$adder = getAdder(8);
+echo $adder(2); // prints "10"
+echo $adder(null); // throws an exception because an incorrect type was passed
+$adder = getAdder([]); // would also throw an exception
+```
+
+
 </div>
 <p>By default, scalar type declarations follow weak typing principles. So, for example, if a parameter's type is&nbsp;<code>int</code>, PHP would allow not only integers, but also convertible numeric strings, floats or booleans to be passed to that function, and would convert them.&nbsp;However, PHP&nbsp;7 has a "strict typing" mode which, when used, disallows such conversions for function calls and returns within a file.</p>
 <h3><span id="PHP_Objects" class="mw-headline">PHP Objects</span></h3>
@@ -449,88 +453,94 @@ The elePHPant, PHP mascot</div>
 <p>If the developer creates a copy of an object using the reserved word&nbsp;<code>clone</code>, the Zend engine will check whether a&nbsp;<code>__clone()</code>&nbsp;method has been defined. If not, it will call a default&nbsp;<code>__clone()</code>&nbsp;which will copy the object's properties. If a&nbsp;<code>__clone()</code>&nbsp;method is defined, then it will be responsible for setting the necessary properties in the created object. For convenience, the engine will supply a function that imports the properties of the source object, so the programmer can start with a by-value&nbsp;<a class="extiw" title="wikt:replica" href="https://en.wiktionary.org/wiki/replica">replica</a>&nbsp;of the source object and only override properties that need to be changed.</p>
 <p>The following is a basic example of&nbsp;<a title="Object-oriented programming" href="https://en.wikipedia.org/wiki/Object-oriented_programming">object-oriented programming</a>&nbsp;in PHP:</p>
 <div class="mw-highlight mw-highlight-lang-php mw-content-ltr" dir="ltr">
-<pre><span class="lineno"> 1 </span><span class="cp">&lt;?php</span>
-<span class="lineno"> 2 </span>
-<span class="lineno"> 3 </span><span class="k">abstract</span> <span class="k">class</span> <span class="nc">User</span>
-<span class="lineno"> 4 </span><span class="p">{</span>
-<span class="lineno"> 5 </span>    <span class="k">public</span> <span class="nx">string</span> <span class="nv">$name</span><span class="p">;</span>
-<span class="lineno"> 6 </span>
-<span class="lineno"> 7 </span>    <span class="k">public</span> <span class="k">function</span> <span class="fm">__construct</span><span class="p">(</span><span class="nx">string</span> <span class="nv">$name</span><span class="p">)</span>
-<span class="lineno"> 8 </span>    <span class="p">{</span>
-<span class="lineno"> 9 </span>        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">name</span> <span class="o">=</span> <span class="nv">$name</span><span class="p">;</span>
-<span class="lineno">10 </span>    <span class="p">}</span>
-<span class="lineno">11 </span>
-<span class="lineno">12 </span>    <span class="k">public</span> <span class="k">function</span> <span class="nf">greet</span><span class="p">()</span><span class="o">:</span> <span class="nx">string</span>
-<span class="lineno">13 </span>    <span class="p">{</span>
-<span class="lineno">14 </span>        <span class="k">return</span> <span class="s2">"Hello, my name is "</span> <span class="o">.</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">name</span><span class="p">;</span>
-<span class="lineno">15 </span>    <span class="p">}</span>
-<span class="lineno">16 </span>
-<span class="lineno">17 </span>    <span class="k">abstract</span> <span class="k">public</span> <span class="k">function</span> <span class="nf">job</span><span class="p">()</span><span class="o">:</span> <span class="nx">string</span><span class="p">;</span>
-<span class="lineno">18 </span><span class="p">}</span>
-<span class="lineno">19 </span>
-<span class="lineno">20 </span><span class="k">class</span> <span class="nc">Student</span> <span class="k">extends</span> <span class="nx">User</span>
-<span class="lineno">21 </span><span class="p">{</span>
-<span class="lineno">22 </span>    <span class="k">public</span> <span class="nx">string</span> <span class="nv">$course</span><span class="p">;</span>
-<span class="lineno">23 </span>
-<span class="lineno">24 </span>    <span class="k">public</span> <span class="k">function</span> <span class="fm">__construct</span><span class="p">(</span><span class="nx">string</span> <span class="nv">$name</span><span class="p">,</span> <span class="nx">string</span> <span class="nv">$course</span><span class="p">)</span>
-<span class="lineno">25 </span>    <span class="p">{</span>
-<span class="lineno">26 </span>        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">course</span> <span class="o">=</span> <span class="nv">$course</span><span class="p">;</span>
-<span class="lineno">27 </span>        <span class="k">parent</span><span class="o">::</span><span class="na">__construct</span><span class="p">(</span><span class="nv">$name</span><span class="p">);</span>
-<span class="lineno">28 </span>    <span class="p">}</span>
-<span class="lineno">29 </span>
-<span class="lineno">30 </span>    <span class="k">public</span> <span class="k">function</span> <span class="nf">job</span><span class="p">()</span><span class="o">:</span> <span class="nx">string</span>
-<span class="lineno">31 </span>    <span class="p">{</span>
-<span class="lineno">32 </span>        <span class="k">return</span> <span class="s2">"I learn "</span> <span class="o">.</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">course</span><span class="p">;</span>
-<span class="lineno">33 </span>    <span class="p">}</span>
-<span class="lineno">34 </span><span class="p">}</span>
-<span class="lineno">35 </span>
-<span class="lineno">36 </span><span class="k">class</span> <span class="nc">Teacher</span> <span class="k">extends</span> <span class="nx">User</span>
-<span class="lineno">37 </span><span class="p">{</span>
-<span class="lineno">38 </span>    <span class="k">public</span> <span class="k">array</span> <span class="nv">$teachingCourses</span><span class="p">;</span>
-<span class="lineno">39 </span>
-<span class="lineno">40 </span>    <span class="k">public</span> <span class="k">function</span> <span class="fm">__construct</span><span class="p">(</span><span class="nx">string</span> <span class="nv">$name</span><span class="p">,</span> <span class="nx">string</span><span class="o">...</span><span class="nv">$teachingCourses</span><span class="p">)</span>
-<span class="lineno">41 </span>    <span class="p">{</span>
-<span class="lineno">42 </span>        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">teachingCourses</span> <span class="o">=</span> <span class="nv">$teachingCourses</span><span class="p">;</span>
-<span class="lineno">43 </span>        <span class="k">parent</span><span class="o">::</span><span class="na">__construct</span><span class="p">(</span><span class="nv">$name</span><span class="p">);</span>
-<span class="lineno">44 </span>    <span class="p">}</span>
-<span class="lineno">45 </span>
-<span class="lineno">46 </span>    <span class="k">public</span> <span class="k">function</span> <span class="nf">job</span><span class="p">()</span><span class="o">:</span> <span class="nx">string</span>
-<span class="lineno">47 </span>    <span class="p">{</span>
-<span class="lineno">48 </span>        <span class="k">return</span> <span class="s2">"I teach "</span> <span class="o">.</span> <span class="nb">implode</span><span class="p">(</span><span class="s2">", "</span><span class="p">,</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">teachingCourses</span><span class="p">);</span>
-<span class="lineno">49 </span>    <span class="p">}</span>
-<span class="lineno">50 </span><span class="p">}</span>
-<span class="lineno">51 </span>
-<span class="lineno">52 </span><span class="nv">$students</span> <span class="o">=</span> <span class="p">[</span>
-<span class="lineno">53 </span>    <span class="k">new</span> <span class="nx">Student</span><span class="p">(</span><span class="s2">"Alice"</span><span class="p">,</span> <span class="s2">"Computer Science"</span><span class="p">),</span>
-<span class="lineno">54 </span>    <span class="k">new</span> <span class="nx">Student</span><span class="p">(</span><span class="s2">"Bob"</span><span class="p">,</span> <span class="s2">"Computer Science"</span><span class="p">),</span>
-<span class="lineno">55 </span>    <span class="k">new</span> <span class="nx">Student</span><span class="p">(</span><span class="s2">"Charlie"</span><span class="p">,</span> <span class="s2">"Business Studies"</span><span class="p">),</span>
-<span class="lineno">56 </span><span class="p">];</span>
-<span class="lineno">57 </span><span class="nv">$teachers</span> <span class="o">=</span> <span class="p">[</span>
-<span class="lineno">58 </span>    <span class="k">new</span> <span class="nx">Teacher</span><span class="p">(</span><span class="s2">"Dan"</span><span class="p">,</span> <span class="s2">"Computer Science"</span><span class="p">,</span> <span class="s2">"Information Security"</span><span class="p">),</span>
-<span class="lineno">59 </span>    <span class="k">new</span> <span class="nx">Teacher</span><span class="p">(</span><span class="s2">"Erin"</span><span class="p">,</span> <span class="s2">"Computer Science"</span><span class="p">,</span> <span class="s2">"3D Graphics Programming"</span><span class="p">),</span>
-<span class="lineno">60 </span>    <span class="k">new</span> <span class="nx">Teacher</span><span class="p">(</span><span class="s2">"Frankie"</span><span class="p">,</span> <span class="s2">"Online Marketing"</span><span class="p">,</span> <span class="s2">"Business Studies"</span><span class="p">,</span> <span class="s2">"E-commerce"</span><span class="p">),</span>
-<span class="lineno">61 </span><span class="p">];</span>
-<span class="lineno">62 </span>
-<span class="lineno">63 </span><span class="k">echo</span> <span class="s2">"Students: </span><span class="se">\n</span><span class="s2">"</span><span class="p">;</span>
-<span class="lineno">64 </span><span class="k">foreach</span> <span class="p">(</span><span class="nv">$students</span> <span class="k">as</span> <span class="nv">$student</span><span class="p">)</span> <span class="p">{</span>
-<span class="lineno">65 </span>    <span class="k">echo</span> <span class="nv">$student</span><span class="o">-&gt;</span><span class="na">greet</span><span class="p">()</span> <span class="o">.</span> <span class="s2">", "</span> <span class="o">.</span> <span class="nv">$student</span><span class="o">-&gt;</span><span class="na">job</span><span class="p">()</span> <span class="o">.</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">;</span>
-<span class="lineno">66 </span><span class="p">}</span>
-<span class="lineno">67 </span>
-<span class="lineno">68 </span><span class="k">echo</span> <span class="s2">"Teachers: </span><span class="se">\n</span><span class="s2">"</span><span class="p">;</span>
-<span class="lineno">69 </span><span class="k">foreach</span> <span class="p">(</span><span class="nv">$teachers</span> <span class="k">as</span> <span class="nv">$teacher</span><span class="p">)</span> <span class="p">{</span>
-<span class="lineno">70 </span>    <span class="k">echo</span> <span class="nv">$teacher</span><span class="o">-&gt;</span><span class="na">greet</span><span class="p">()</span> <span class="o">.</span> <span class="s2">", "</span> <span class="o">.</span> <span class="nv">$teacher</span><span class="o">-&gt;</span><span class="na">job</span><span class="p">()</span> <span class="o">.</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">;</span>
-<span class="lineno">71 </span><span class="p">}</span>
-<span class="lineno">72 </span>
-<span class="lineno">73 </span><span class="c1">// Output of program:</span>
-<span class="lineno">74 </span><span class="c1">// Students:</span>
-<span class="lineno">75 </span><span class="c1">// Hello, my name is Alice, I learn Computer Science</span>
-<span class="lineno">76 </span><span class="c1">// Hello, my name is Bob, I learn Computer Science</span>
-<span class="lineno">77 </span><span class="c1">// Hello, my name is Charlie, I learn Business Studies</span>
-<span class="lineno">78 </span><span class="c1">// Teachers:</span>
-<span class="lineno">79 </span><span class="c1">// Hello, my name is Dan, I teach Computer Science, Information Security</span>
-<span class="lineno">80 </span><span class="c1">// Hello, my name is Erin, I teach Computer Science, 3D Graphics Programming</span>
-<span class="lineno">81 </span><span class="c1">// Hello, my name is Frankie, I teach Online Marketing, Business Studies, E-commerce</span>
-</pre>
+
+```PHP language
+<?php
+
+abstract class User
+{
+    public string $name;
+
+    public function __construct(string $name)
+    {
+        $this->name = $name;
+    }
+
+    public function greet(): string
+    {
+        return "Hello, my name is " . $this->name;
+    }
+
+    abstract public function job(): string;
+}
+
+class Student extends User
+{
+    public string $course;
+
+    public function __construct(string $name, string $course)
+    {
+        $this->course = $course;
+        parent::__construct($name);
+    }
+
+    public function job(): string
+    {
+        return "I learn " . $this->course;
+    }
+}
+
+class Teacher extends User
+{
+    public array $teachingCourses;
+
+    public function __construct(string $name, string...$teachingCourses)
+    {
+        $this->teachingCourses = $teachingCourses;
+        parent::__construct($name);
+    }
+
+    public function job(): string
+    {
+        return "I teach " . implode(", ", $this->teachingCourses);
+    }
+}
+
+$students = [
+    new Student("Alice", "Computer Science"),
+    new Student("Bob", "Computer Science"),
+    new Student("Charlie", "Business Studies"),
+];
+$teachers = [
+    new Teacher("Dan", "Computer Science", "Information Security"),
+    new Teacher("Erin", "Computer Science", "3D Graphics Programming"),
+    new Teacher("Frankie", "Online Marketing", "Business Studies", "E-commerce"),
+];
+
+echo "Students: \n";
+foreach ($students as $student) {
+    echo $student->greet() . ", " . $student->job() . "\n";
+}
+
+echo "Teachers: \n";
+foreach ($teachers as $teacher) {
+    echo $teacher->greet() . ", " . $teacher->job() . "\n";
+}
+
+// Output of program:
+// Students:
+// Hello, my name is Alice, I learn Computer Science
+// Hello, my name is Bob, I learn Computer Science
+// Hello, my name is Charlie, I learn Business Studies
+// Teachers:
+// Hello, my name is Dan, I teach Computer Science, Information Security
+// Hello, my name is Erin, I teach Computer Science, 3D Graphics Programming
+// Hello, my name is Frankie, I teach Online Marketing, Business Studies, E-commerce
+```
+
+
+
+
 </div>
 <p>The&nbsp;<a class="mw-redirect" title="Visibility (computer science)" href="https://en.wikipedia.org/wiki/Visibility_(computer_science)">visibility</a>&nbsp;of PHP properties and methods is defined using the&nbsp;<a class="mw-redirect" title="Keyword (computer programming)" href="https://en.wikipedia.org/wiki/Keyword_(computer_programming)">keywords</a>&nbsp;<code>public</code>,&nbsp;<code>private</code>, and&nbsp;<code>protected</code>. The default is public, if only&nbsp;<a class="mw-redirect" title="Variable (programming)" href="https://en.wikipedia.org/wiki/Variable_(programming)">var</a>&nbsp;is used;&nbsp;<code>var</code>&nbsp;is a synonym for&nbsp;<code>public</code>. Items declared&nbsp;<code>public</code>&nbsp;can be accessed everywhere.&nbsp;<code>protected</code>&nbsp;limits access to&nbsp;<a class="mw-redirect" title="Inherited class" href="https://en.wikipedia.org/wiki/Inherited_class">inherited classes</a>&nbsp;(and to the class that defines the item).&nbsp;<code>private</code>&nbsp;limits visibility only to the class that defines the item.&nbsp;Objects of the same type have access to each other's private and protected members even though they are not the same instance.</p>
 <h2><span id="Implementations" class="mw-headline">Implementations</span></h2>
