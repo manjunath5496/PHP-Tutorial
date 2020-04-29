@@ -653,7 +653,9 @@ Dynamic web page: example of&nbsp;<a title="Server-side scripting" href="https:/
  <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(12).pdf" style="text-decoration:none;">Taking PHP Seriously</a></li>                              
 <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Tutorial/blob/master/pho(13).pdf" style="text-decoration:none;">Wrapping C++ Classes in a PHP Extension</a></li>
 
+<li><a target="_blank" href="https://manjunath5496.github.io/php-quiz/index.html" style="text-decoration:none;">PHP Quiz</a></li>
 
+<li><a target="_blank" href="https://www.youtube.com/results?search_query=PHP+Tutorial" style="text-decoration:none;">PHP programming videos</a></li>
 
 
 
