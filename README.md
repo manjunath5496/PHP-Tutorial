@@ -676,7 +676,7 @@ Dynamic web page: example of&nbsp;<a title="Server-side scripting" href="https:/
 <li><a target="_blank" href="https://www.youtube.com/results?search_query=PHP+Tutorial" style="text-decoration:none;">PHP programming videos</a></li>
 
 <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/README.md" style="text-decoration:none;">PHP Exercises for Beginners</a></li>
-
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Source-Codes/blob/master/README.md" style="text-decoration:none;">PHP Source Codes</a></li>
 
 </ul>
 
